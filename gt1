@@ -1,0 +1,5 @@
+$ rhc app create flask python-2.7
+$ cd flask 
+$ git remote add upstream -m master git://github.com/openshift/flask-example.git
+$ git pull -s recursive -X theirs upstream master
+$ git push
